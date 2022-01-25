@@ -1,5 +1,8 @@
 $blanco: rgba(255, 255, 255, 1);
 $azul-migtor: rgba(0, 68, 127, 1);
+$guinda-auun: rgba(98, 10, 11, 1);
+$magenta-casaamor: rgba(178, 78, 136, 1);
+$naranja-irisroa: rgba(223, 146, 46, 1);
 
 * {
     padding: 0;
@@ -16,4 +19,7 @@ h2 {
     font-size: 4em;
     font-weight: 100;
     text-align: center;
+    margin: 0 0 0 35%;
+    padding: 0;
+    border-bottom: solid 5px $azul-migtor;
 }

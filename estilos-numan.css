@@ -13,11 +13,14 @@ h2 {
   font-size: 4em;
   font-weight: 100;
   text-align: center;
+  margin: 0 0 0 35%;
+  padding: 0;
+  border-bottom: solid 5px #00447f;
 }
 
 .proyectos {
   display: grid;
-  grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+  grid-template: 1fr 1fr/1fr 1fr 1fr;
   gap: 100px;
   width: 80%;
   background-color: lightgrey;
@@ -28,6 +31,7 @@ h2 {
   margin: 25px auto;
   padding: 80px;
   border-radius: 35px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
 }
 .proyectos .proyecto {
   display: flex;
@@ -41,7 +45,7 @@ h2 {
   border-radius: 25px;
   text-align: center;
   color: white;
-  transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.4s ease-in-out;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
   border: solid 5px white;
 }
@@ -59,7 +63,7 @@ h2 {
 }
 .proyectos a {
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 700;
   color: white;
   background-color: darkblue;
@@ -75,6 +79,24 @@ h2 {
   border-color: #00447f;
   color: #00447f;
 }
+.proyectos .color-auun {
+  background-color: #620a0b;
+  color: white;
+}
+.proyectos .color-casaamor {
+  background-color: white;
+  border-color: #b24e88;
+  color: #b24e88;
+}
+.proyectos .color-vaccenter {
+  background-color: white;
+  border-color: #00447f;
+  color: #00447f;
+}
+.proyectos .color-irisroa {
+  background-color: #df922e;
+  color: white;
+}
 .proyectos .logo-proyecto {
   width: 70%;
   height: auto;
@@ -83,6 +105,16 @@ h2 {
 .imagen-responsiva {
   width: 100%;
   height: auto;
+}
+
+.imagen-responsiva-h {
+  width: auto;
+  height: 50px;
+}
+
+.navbar-numan {
+  background: linear-gradient(90deg, white 34.79%, #002f8e 83.18%, #082d88 84.95%, #1d2878 87.69%, #411f5e 91.04%, #721339 94.88%, #af040b 99.08%, #be0000 100%);
+  height: 60px;
 }
 
 /*# sourceMappingURL=estilos-numan.css.map */

@@ -2,7 +2,7 @@
 
 .proyectos {
     display: grid;
-    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
     gap: 100px;
     width: 80%;
     background-color: lightgrey;
@@ -13,6 +13,7 @@
     margin: 25px auto;
     padding: 80px;
     border-radius: 35px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
 
     .proyecto {
         display: flex;
@@ -26,9 +27,9 @@
         border-radius: 25px;
         text-align: center;
         color: white;
-        transition: all .75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        transition: all .4s ease-in-out;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
-        border:  solid 5px white;
+        border: solid 5px white;
     }
 
     .proyecto:hover {
@@ -47,7 +48,7 @@
 
         a {
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 1em;
             font-weight: 700;
             color: white;
             background-color: darkblue;
@@ -64,6 +65,28 @@
             background-color: $blanco;
             border-color: $azul-migtor;
             color: $azul-migtor;
+        }
+
+        .color-auun {
+            background-color: $guinda-auun;
+            color: $blanco;
+        }
+
+        .color-casaamor {
+            background-color: $blanco;
+            border-color: $magenta-casaamor;
+            color: $magenta-casaamor;
+        }
+
+        .color-vaccenter {
+            background-color: $blanco;
+            border-color: $azul-migtor;
+            color: $azul-migtor;
+        }
+
+        .color-irisroa {
+            background-color: $naranja-irisroa;
+            color: $blanco;
         }
 
     .logo-proyecto {
