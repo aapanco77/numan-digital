@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  color: black;
+  font-size: 4em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.proyectos {
+  display: grid;
+  grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+  gap: 100px;
+  width: 80%;
+  background-color: lightgrey;
+  background-image: url(assets/img/textura-proyecto.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: auto;
+  margin: 25px auto;
+  padding: 80px;
+  border-radius: 35px;
+}
+.proyectos .proyecto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 1/1;
+  max-width: 250px;
+  height: 250px;
+  background-color: black;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+  border: solid 5px white;
+}
+.proyectos .proyecto:hover {
+  transform: scale(1.1) rotate(45deg);
+}
+.proyectos .contenido-proyecto {
+  padding: 5px;
+  transform: rotate(-45deg);
+}
+.proyectos p {
+  font-size: 0.8em;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.proyectos a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: white;
+  background-color: darkblue;
+  padding: 5px 15px;
+  border-radius: 500px;
+  transition: background-color 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.proyectos a:hover {
+  background-color: crimson;
+}
+.proyectos .color-migtor {
+  background-color: white;
+  border-color: #00447f;
+  color: #00447f;
+}
+.proyectos .logo-proyecto {
+  width: 70%;
+  height: auto;
+}
+
+.imagen-responsiva {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=estilos-numan.css.map */
