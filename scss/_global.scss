@@ -47,3 +47,15 @@ h2 {
     font-weight: 400;
     color: black;
 }
+
+.fa-github-square, .fa-server, .fa-facebook-square, .fa-instagram-square {
+    font-size: 2em;
+    color: $blanco;
+    margin: 50px;
+    transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+    &:hover {
+        transform: scale(2);
+        color: $rojo-numan;
+    }
+}
