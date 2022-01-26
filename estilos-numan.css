@@ -156,15 +156,13 @@ h2 {
   padding: 0;
   margin: 0 auto;
 }
-
-article {
+.biografia article {
   width: 55%;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
-
-.foto-staff {
+.biografia .foto-staff {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -177,7 +175,6 @@ article {
   box-shadow: 10px 10px 20px 5px black;
   animation: staff 2s;
 }
-
 @keyframes staff {
   0% {
     transform: translateY(-1000px);
@@ -195,7 +192,7 @@ article {
     transform: translateY(0);
   }
 }
-.foto-staff {
+.biografia .foto-staff {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -205,13 +202,11 @@ article {
   background-color: yellow;
   margin: 0 0 10px 0;
 }
-
-.imagenresponsiva {
+.biografia .imagenresponsiva {
   width: 100%;
   height: auto;
 }
-
-.datos-staff {
+.biografia .datos-staff {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -221,8 +216,7 @@ article {
   margin: 0 10px;
   animation: staff2 2s;
 }
-
-.nombre-staff {
+.biografia .nombre-staff {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -234,12 +228,10 @@ article {
   padding: 10px;
   margin: 0px;
 }
-
-.sub-staff {
+.biografia .sub-staff {
   width: 90%;
 }
-
-.datos-staff h3 {
+.biografia .datos-staff h3 {
   font-family: "Gochi Hand", cursive;
   font-size: 1.8em;
   font-weight: 400px;
@@ -249,12 +241,12 @@ article {
   text-shadow: none;
   text-decoration: none;
 }
-
-.titulete {
+.biografia .titulete {
   font-family: "Fugaz One", cursive;
   font-size: 1.8em;
-  margin-bottom: 10px;
+  margin: 0 0 0 10px;
   font-weight: 400;
+  border-bottom: none;
 }
 
 .derecha {

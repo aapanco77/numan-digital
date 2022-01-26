@@ -18,16 +18,15 @@
   height:auto;
   padding: 0;
   margin: 0 auto;
-}
 
-article {
-  width: 55%;
-  justify-content:flex-start;
-  align-items: flex-start;
-  flex-direction: column;  
-}
+  article {
+    width: 55%;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;  
+  }
 
-.foto-staff {
+  .foto-staff {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -61,8 +60,6 @@ article {
       transform: translateY(0);
     }
   }
-
-
 
   .foto-staff {
     display: flex;
@@ -125,9 +122,11 @@ article {
   .titulete {
     font-family: 'Fugaz One', cursive;
     font-size: 1.8em;
-    margin-bottom: 10px;
+    margin: 0 0 0 10px;
     font-weight: 400;
+    border-bottom: none;
   }
+}
 
   .derecha {
     text-align: right;
@@ -151,7 +150,7 @@ article {
   }
 
   .caracteristicas-staff h3{
-    font-size:1.2em ;
+    font-size:1.2em;
   }
 
   .logos-caracteristicas{
@@ -330,11 +329,10 @@ article {
     transform: scale(1.2) rotate(10deg);
   }
 
-  
   .btn-grad {
     background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)
   }
-  
+
   .btn-grad {
      margin: 10px;
      padding: 15px 45px;
@@ -353,4 +351,3 @@ article {
      color: #fff;
      text-decoration: none;
    }
-  
