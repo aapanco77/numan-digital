@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/82cffc5c0f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sandbox.css">
+    <title>Sandbox</title>
+</head>
+
+<body>
+    <button class="modal-button" onclick="openModal(0)" data-brand="0">+ INFO</button>
+    <button class="modal-button" onclick="openModal(1)" data-brand="1">+ INFO</button>
+    <button class="modal-button" onclick="openModal(2)" data-brand="2">+ INFO</button>
+    <button class="modal-button" onclick="openModal(3)" data-brand="3">+ INFO</button>
+    <button class="modal-button" onclick="openModal(4)" data-brand="4">+ INFO</button>
+    <button class="modal-button" onclick="openModal(5)" data-brand="5">+ INFO</button>
+
+    <div id="modal">
+        <span id="close" onclick="closeModal()">&times;</span>
+        <div class="modal-aside">
+            <img src="" alt="" id="logo-modal" class="logo-modal">
+            <h2>Giro de la Empresa:</h2>
+            <p id="business">Sample</p>
+            <article id="intro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus facilis sed quod sit sint voluptate quasi, dicta officiis cupiditate, libero consequuntur quis! Esse dolores labore blanditiis fugit eligendi provident molestias.</article>
+            <a href="#" id="web-site" target="blank"><i class="fas fa-globe"></i> Sitio Web Desarrollado</a>
+        </div>
+        <div class="modal-content">
+            <img id="frontpage" src="" alt="">
+            <div class="element">
+                <h2>Elementos Desarrollados en la Campaña</h2>
+                <div class="advertising">
+                    <div class="element-advertising">
+                        <a href=""><i class="fas fa-sitemap"></i>
+                        </a>
+                        Web Site
+                    </div>
+                    <div class="element-advertising">
+                        <a href=""><i class="fas fa-door-open"></i>
+                        </a>
+                        Identidad Corporativa
+                    </div>
+                    <div class="element-advertising">
+                        <a href=""><i class="fas fa-hashtag"></i>
+                        </a>
+                        Social Media
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="clients.js"></script>
+</body>
+</html>
