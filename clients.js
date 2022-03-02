@@ -63,7 +63,7 @@ const brands = [
 
   function openModal (brandNumber) {
     let actualBrand;
-    actualBrand = brandNumber
+    actualBrand = brandNumber;
     const modal = document.getElementById('modal');
     const modalAside = document.getElementsByClassName('modal-aside')[0];
     const modalContent = document.getElementsByClassName('modal-content')[0];
