@@ -1,4 +1,4 @@
-var brands = [
+const brands = [
   {
     name: 'Migtor',
     logo: 'assets/img/logo-migtor.svg',
@@ -61,19 +61,17 @@ var brands = [
   },
 ]
 
-var actualBrand = 2;
-var modal = document.getElementById('modal');
-var modalAside = document.getElementsByClassName('modal-aside')[0];
-var modalContent = document.getElementsByClassName('modal-content')[0];
-
-
-
-  function openModal (index) {
-    let modalLogo = document.getElementById('logo-modal');
-    let businessText = document.getElementById('business');
-    let introText = document.getElementById('intro');
-    let webSite = document.getElementById('web-site');
-    let frontPage = document.getElementById('frontpage');
+  function openModal (brandNumber) {
+    let actualBrand;
+    actualBrand = brandNumber
+    const modal = document.getElementById('modal');
+    const modalAside = document.getElementsByClassName('modal-aside')[0];
+    const modalContent = document.getElementsByClassName('modal-content')[0];
+    const modalLogo = document.getElementById('logo-modal');
+    const businessText = document.getElementById('business');
+    const introText = document.getElementById('intro');
+    const webSite = document.getElementById('web-site');
+    const frontPage = document.getElementById('frontpage');
     modalLogo.src = brands[actualBrand].logo;
     modalAside.style.background = brands[actualBrand].backgroundAside;
     modalContent.style.background = brands[actualBrand].backgroundContent;
